@@ -1,28 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <CocoComponent>
+      <coco-banner :obj="{
+        src: require('./assets/banner.jpg'),
+        link: 'https://coco.com',
+      }" />
+      <coco-form />
+    </CocoComponent>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import CocoComponent from './common/coco-component';
+import CocoBanner from './components/coco-banner/index';
+import CocoForm from './components/coco-form/index';
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CocoBanner,
+    CocoForm,
+    CocoComponent,
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

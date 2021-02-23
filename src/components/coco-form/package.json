@@ -1,0 +1,22 @@
+{
+  "name": "coco-form",
+  "description": "form 组件",
+  "snapshot": "https://cdn.img/banner.png",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "btnText": {
+        "title": "按钮文案",
+        "type": "string"
+      },
+      "action": {
+        "title": "提交接口地址",
+        "type": "string",
+        "format": "url"
+      }
+    },
+    "required": [
+      "btnText"
+    ]
+  }
+}

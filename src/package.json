@@ -1,0 +1,20 @@
+{
+  "schema": {
+    "type": "object",
+    "title": "页面配置",
+    "properties": {
+      "background": {
+        "type": "string",
+        "title": "页面背景色",
+        "format": "color"
+      },
+      "title": {
+        "type": "string",
+        "title": "页面标题"
+      }
+    }
+  },
+  "data": {
+    "title": "coco-template"
+  }
+}

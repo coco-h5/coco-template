@@ -6,6 +6,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- 使用CDN加速的JS文件，配置在vue.config.js下 -->
+    <% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.js) { %>
+    <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>" rel="preload"></script>
+    <% } %>
+    <script data-inject>
+      window.__coco_config__ = { components: [] };
+    </script>
+    <!-- remote-script-inject-start -->
+    <!-- remote-script-inject-end -->
   </head>
   <body>
     <noscript>
