@@ -11,7 +11,7 @@
       <div
         :is="component.name"
         :key="component + index"
-        :obj="component.props"
+        :obj="component.props || {}"
         :config="component.config"
         @onRemoteComponentLoad="remoteComponentLoad"
       />
@@ -28,6 +28,8 @@ import {
   pageId,
   xhrGet,
 } from './utils';
+
+import CocoComponentsLoader from './coco-remote-component-loader';
 
 export default {
   name: 'coco-component',
@@ -204,6 +206,9 @@ export default {
       ];
       this.changeIndex(index + 1);
     }
+  },
+  components: {
+    CocoComponentsLoader,
   }
 };
 </script>
