@@ -1,13 +1,13 @@
 {
   "name": "coco-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "coco-init": "coco init",
-    "coco create": "coco create coco-template-test"
+    "init": "coco init",
+    "release": "coco release"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -47,5 +47,7 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "readme": "ERROR: No README data found!",
+  "_id": "coco-template@0.1.0"
 }
