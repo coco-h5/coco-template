@@ -1,7 +1,7 @@
 {
   "name": "coco-banner",
   "description": "banner 组件",
-  "snapshot": "https://cdn.img/banner.png",
+  "snapshot": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
   "schema": {
     "type": "object",
     "properties": {
@@ -19,5 +19,8 @@
     "required": [
       "src"
     ]
+  },
+  "data": {
+    "src": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
   }
 }
