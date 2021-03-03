@@ -19,6 +19,110 @@
   </div>
 </template>
 <script>
+// window.__coco_config__ = {
+//   components: [
+//     {
+//       "name": "coco-components-loader",
+//       "config": {
+//         "name": "coco-global-banner.0.0.1",
+//         "description": "全局banner组件",
+//         "js": "https://coco-h5.github.io/coco-global-banner/coco-global-banner/coco-global-banner.0.0.1.umd.js",
+//         "css": "https://coco-h5.github.io/coco-global-banner/coco-global-banner/coco-global-banner.0.0.1.css",
+//         "index": 0
+//       },
+//       props: {
+//         src: "//sf6-scmcdn2-tos.pstatp.com/xitu_juejin_web/img/logo.a7995ad.svg"
+//       }
+//     },
+//     {
+//       name: "coco-banner",
+//       schema: {
+//         "type": "object",
+//         "properties": {
+//           "src": {
+//             "title": "图片地址",
+//             "type": "string",
+//             "format": "image"
+//           },
+//           "link": {
+//             "title": "跳转链接",
+//             "type": "string",
+//             "format": "url"
+//           }
+//         },
+//         "required": [
+//           "src"
+//         ]
+//       },
+//       props: {
+//         src: "//sf6-scmcdn2-tos.pstatp.com/xitu_juejin_web/img/logo.a7995ad.svg"
+//       }
+//     }
+//   ],
+//   remoteComponents: [{
+//     "name": "coco-global-banner",
+//     "description": "全局banner组件",
+//     "version": "0.0.1",
+//     schema: {
+//       "type": "object",
+//       "properties": {
+//         "src": {
+//           "title": "图片地址",
+//           "type": "string",
+//           "format": "image"
+//         },
+//         "link": {
+//           "title": "跳转链接",
+//           "type": "string",
+//           "format": "url"
+//         }
+//       },
+//       "required": [
+//         "src"
+//       ]
+//     }
+//   }],
+//   userSelectComponents: [
+//     {
+//       name: "coco-banner",
+//       schema: {
+//         "type": "object",
+//         "properties": {
+//           "src": {
+//             "title": "图片地址",
+//             "type": "string",
+//             "format": "image"
+//           },
+//           "link": {
+//             "title": "跳转链接",
+//             "type": "string",
+//             "format": "url"
+//           }
+//         },
+//         "required": [
+//           "src"
+//         ]
+//       },
+//       props: {
+//         src: "http://static.91jkys.com/activity/img/55844543eca34afe80f8dfb9d7c2b675.jpg"
+//       }
+//     },
+//     {
+//       "name": "coco-components-loader",
+//       "props": {
+//         src: "http://static.91jkys.com/activity/img/55844543eca34afe80f8dfb9d7c2b675.jpg"
+//       },
+//       "config": {
+//         "name": "coco-global-banner.0.0.1",
+//         "description": "全局banner组件",
+//         "js": "https://coco-h5.github.io/coco-global-banner/coco-global-banner/coco-global-banner.0.0.1.umd.js",
+//         "css": "https://coco-h5.github.io/coco-global-banner/coco-global-banner/coco-global-banner.0.0.1.css",
+//         "index": 0
+//       }
+//     }
+//   ]
+// }
+
 import {
   postMsgToParent,
   isEdit,
