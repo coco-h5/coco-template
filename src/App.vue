@@ -2,8 +2,7 @@
   <div id="app">
     <CocoComponent>
       <coco-banner :obj="{
-        src: 'https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a2e81c9d78a24c5fb0cb33bfcc366dce~tplv-k3u1fbpfcp-watermark.image',
-        link: 'https://coco.com',
+        src: 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png'
       }" />
       <coco-form />
     </CocoComponent>
@@ -23,3 +22,12 @@ export default {
   }
 }
 </script>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: top;
+}
+</style>
