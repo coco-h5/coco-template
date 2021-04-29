@@ -18,5 +18,8 @@
     "required": [
       "btnText"
     ]
+  },
+  "data": {
+    "btnText": "提交"
   }
 }

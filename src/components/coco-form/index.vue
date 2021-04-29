@@ -21,13 +21,19 @@
       placeholder="地址"
     />
     <div style="margin: 16px;">
-      <van-button round block type="info" native-type="submit">提交</van-button>
+      <van-button round block type="info" native-type="submit">{{ obj.btnText }}</van-button>
     </div>
   </van-form>
 </template>
 
 <script>
 export default {
+  props: {
+    obj: {
+      type: Object,
+      default: () => {}
+    }
+  },
   data() {
     return {
       username: '',
