@@ -133,7 +133,7 @@ import {
   xhrGet,
 } from './utils';
 
-document.domain = "github.io" // 设置同域
+document.domain = "coco-h5.cn" // 设置同域
 
 import CocoComponentsLoader from './coco-remote-component-loader';
 
