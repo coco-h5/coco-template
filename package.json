@@ -7,9 +7,11 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "init": "coco init",
-    "release": "coco release"
+    "release": "coco release",
+    "mock": "vue-cli-service serve --mode mock"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "lodash.camelcase": "^4.3.0",
     "lodash.upperfirst": "^4.3.1",

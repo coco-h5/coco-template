@@ -13,12 +13,19 @@
 import CocoComponent from './common/coco-component';
 import CocoBanner from './components/coco-banner/index';
 import CocoForm from './components/coco-form/index';
+import {getCampaignInfo} from './api';
+
 export default {
   name: 'App',
   components: {
     CocoBanner,
     CocoForm,
     CocoComponent,
+  },
+  mounted() {
+    getCampaignInfo().then(res => {
+      console.log(res);
+    })
   }
 }
 </script>
