@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdc937b5-67b3-496c-a1ea-a16a64ed2afb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1omnS0argWLAuaNiOu6FhDR1fY8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/components/form" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdc937b5-67b3-496c-a1ea-a16a64ed2afb" name="Default Changelist" comment="" />
+      <created>1613900630272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613900630272</updated>
+      <workItem from="1613900631875" duration="8906000" />
+      <workItem from="1614052116223" duration="377000" />
+      <workItem from="1614052540799" duration="13195000" />
+      <workItem from="1614668144850" duration="236000" />
+      <workItem from="1614683524864" duration="7116000" />
+      <workItem from="1615252975667" duration="787000" />
+      <workItem from="1615792388862" duration="9167000" />
+      <workItem from="1617871979613" duration="10152000" />
+      <workItem from="1618882943299" duration="126000" />
+      <workItem from="1618883097990" duration="597000" />
+      <workItem from="1619401505497" duration="417000" />
+      <workItem from="1619603281855" duration="531000" />
+      <workItem from="1619660090929" duration="4243000" />
+      <workItem from="1619697875046" duration="533000" />
+      <workItem from="1620291105145" duration="598000" />
+      <workItem from="1621249689165" duration="1409000" />
+    </task>
+    <task id="LOCAL-00001" summary="ref: init">
+      <created>1614050582420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614050582420</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ref: 支持远程组件">
+      <created>1614652299282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614652299282</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ref: 支持远程组件">
+      <created>1614652319796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614652319796</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ref: 支持远程组件">
+      <created>1618278917099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618278917099</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ref: mock 添加">
+      <created>1621250811965</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621250811966</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ref: init" />
+    <MESSAGE value="ref: 支持远程组件" />
+    <MESSAGE value="ref: mock 添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="ref: mock 添加" />
+  </component>
+</project>
