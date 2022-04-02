@@ -104,13 +104,13 @@
 //         ]
 //       },
 //       props: {
-//         src: "http://static.91jkys.com/activity/img/55844543eca34afe80f8dfb9d7c2b675.jpg"
+//         src: "http://xxx.com/activity/img/55844543eca34afe80f8dfb9d7c2b675.jpg"
 //       }
 //     },
 //     {
 //       "name": "coco-components-loader",
 //       "props": {
-//         src: "http://static.91jkys.com/activity/img/55844543eca34afe80f8dfb9d7c2b675.jpg"
+//         src: "http://xxx.com/activity/img/55844543eca34afe80f8dfb9d7c2b675.jpg"
 //       },
 //       "config": {
 //         "name": "coco-global-banner.0.0.1",
